@@ -1,0 +1,39 @@
+{
+  "books": [
+    {
+      "bookId": 1,
+      "title": "Book Title 1",
+      "author": "Author 1",
+      "description": "Description for Book 1",
+      "price": 19.99,
+      "coverImageUrl": "https://via.placeholder.com/150",
+      "categoryId": 1,
+      "categoryName": "Fiction",
+      "averageRating": 4.5,
+      "isAvailable": true
+    },
+    {
+      "bookId": 2,
+      "title": "Book Title 2",
+      "author": "Author 2",
+      "description": "Description for Book 2",
+      "price": 29.99,
+      "coverImageUrl": "https://via.placeholder.com/150",
+      "categoryId": 2,
+      "categoryName": "Non-Fiction",
+      "averageRating": 4.0,
+      "isAvailable": false
+    }
+  ],
+  "total": 50,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fiction"
+    },
+    {
+      "id": 2,
+      "name": "Non-Fiction"
+    }
+  ]
+}
